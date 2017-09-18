@@ -6,8 +6,8 @@ public class Notification {
     private LocalDateTime createdAt;
     private String subject;
     private String body;
-
     protected String status;
+
 
     public Notification(String subject, String body) {
         this.subject = subject;
